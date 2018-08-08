@@ -50,13 +50,13 @@ body {
 
 
 /* ------ normal text ----- */
-#normal {
+#normal, #sidemenu{
     margin-left:100px;
     margin-right:100px;
     font-family:'Segoe UI','맑은 고딕', 'Apple SD Gothic Neo', Arial;
     color:rgb(233, 162, 10);
 }
-#normal_title{
+.normal_title{
     font-size:130%;
     margin-bottom:30px;
     margin-top:30px;
