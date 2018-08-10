@@ -1,50 +1,54 @@
 <!DOCTYPE html>
-<meta charset="utf-8" />
-<html>
+<html lang="ko">
+    <head>
+        <meta charset="uft-8" />
+        <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="index.css">
+        <title>Codepedia - A Website Where You Can Programme!</title>
+    </head>
+    <body>
+        
+        <!-- ################ INDEX.HTML ################ -->
 
-<head>
-	<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
-	<link rel="stylesheet" href="login.css">
-	<link rel="stylesheet" href="style.css">
-	<title>Codepedia - A Website Where You Can Programme!</title>
-</head>
+        <header>
+            <div id="login"><a href="login.html">로그인</a></div>
+            <div id="title">
+                <a href="index.html">Codepedia</a>
+                <br/>
+                <em>A Website Where You Can Programme!</em>
+            </div>
+            <br/>
+        </header>
+        
+        <nav id="menu">
+            <a href="index.html">홈</a>
+            <a href="code\html.html">HTML</a>
+            <a href="code\css.html">CSS</a>
+            <a href="code\js.html">Javascript</a>
+            <a href="code\cpp.html">C/C++</a>
+        </nav>
 
-<body bgcolor="#F5F5F5">
+        <section id="section">
 
-	<!-- TITLE -->
-	</div>
-	<div id="login"><a href="login.html">로그인</a></div>
-	<div id="title"><a href="index.html">Codepedia</a></div>
-	<div id="subtitle"><em>A Website Where You Can Programme! </em></div>
-	<br />
+        <article>
+			<header>로그인</header>
+				<script>
+					password = prompt("비밀번호");
+					if (password == codepedia) {
+						document.write("틀린 암호입니다");
+					} else {
+						document.write("안녕하세요.");				
+						window.location.replace=("index.html");
+					}
+				</script>
+           </article>
 
-	<!-- MENU -->
-	<div align="center" id="menu">
-		<a href="index.html">홈</a>
-		<a href="code\html.html">HTML</a>
-		<a href="code\css.html">CSS</a>
-		<a href="code\js.html">Javascript</a>
-		<a href="code\cpp.html">C/C++</a>
-	</div>
+        </section>
 
-	<!-- NORMAL -->
-	<div id="normal">
-
-		<!-- TITLE -->
-		<div id="normal_title">
-			<h2>로그인</h2>
-		</div>
-		<!-- TEXT -->
-		<script>
-			password = prompt("비밀번호");
-			if (password == codepedia) {
-				document.write("틀린 암호입니다");
-			} else {
-				document.write("안녕하세요.");				
-				window.location.replace=("index.html");
-            }
-		</script>
-	</div>
-</body>
-
-</html>
+        <footer>
+                <p>Codepedia - <em>A Website Where You Can Programme!</em></p>
+        </footer>
+ 
+    </body>
+</html>		
