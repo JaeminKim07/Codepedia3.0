@@ -1,38 +1,7 @@
-/* -------cpp,css,html,js design-------- */
-
-
-#normal {
-    position: absolute;
-    top:120px;
-    left:260px;
-    margin-right:40px;
-    margin-left:0px;
-}
-#sidemenu .normal_title{
-    margin-bottom: 0px;
-}
-#sidemenu{
-    margin:0px;
-    position: absolute;
-    top:120px;
-    left:15px;
-
-}
-hr {
-    width:200px;
-    height: 2px;
-    background-color: orange;
-    border:0px;
-    border-color:orange;
-}
-#sidemenu a{
-    color:rgb(228, 173, 21, 0.911);
-    text-decoration: none;
-}
-#sidemenu ol {
-    padding-left: 20px;
-}
-#hrspan {
-    position: relative;
-    top:50px;
+/*css.html*/
+#cssimg {
+    float: left;
+    margin-right: 20px;
+    margin-top:10px;
+    margin-bottom: 20px;
 }

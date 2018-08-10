@@ -1,3 +1,11 @@
 
-/* ------ index design ----- */
-
+/* index.html */
+#section {
+    margin-left: 100px;
+    margin-right:100px;
+}
+#indeximg{
+    float: right;
+    margin-left: 20px;
+    margin-top:10px;
+}

@@ -1,41 +1,53 @@
 <!DOCTYPE html>
-<meta charset="utf-8" />
-<html>
-<head>
-	<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
-	<link rel="stylesheet" href="style.css">
-	<link rel="stylesheet" href="index.css">
-	<title>Codepedia - A Website Where You Can Programme!</title>
-</head>
+<html lang="ko">
+    <head>
+        <meta charset="uft-8" />
+        <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="index.css">
+        <title>Codepedia - A Website Where You Can Programme!</title>
+    </head>
+    <body>
+        
+        <!-- ################ INDEX.HTML ################ -->
 
-<body>
-	<!-- TITLE -->
-	<div id="login"><a href="login.html">로그인</a></div>
-	<div id="title"><a href="index.html">Codepedia</a></div> 
-	<div id="subtitle"><em>A Website Where You Can Programme!</em></div>
-	<br/>
+        <header>
+            <div id="login"><a href="login.html">로그인</a></div>
+            <div id="title">
+                <a href="index.html">Codepedia</a>
+                <br/>
+                <em>A Website Where You Can Programme!</em>
+            </div>
+            <br/>
+        </header>
+        
+        <nav id="menu">
+            <a href="index.html">홈</a>
+            <a href="code\html.html">HTML</a>
+            <a href="code\css.html">CSS</a>
+            <a href="code\js.html">Javascript</a>
+            <a href="code\cpp.html">C/C++</a>
+        </nav>
 
-	<!-- MENU -->
-	<div align="center" id="menu">
-		<a href="index.html">홈</a>
-		<a href="code\html.html">HTML</a>
-		<a href="code\css.html">CSS</a>
-		<a href="code\js.html">Javascript</a>
-		<a href="code\cpp.html">C/C++</a>
-	</div>
-	<!-- NORMAL -->
-	<div id="normal">
+        <section id="section">
 
-		<!-- TITLE -->
-		<div class="normal_title"><em>Codepedia</em>에 오신것을 환영합니다<em>!</em></div>
-		<!-- TEXT -->
+        <article>
+			<header><em>Codepedia</em>에 오신것을 환영합니다<em>!</em></header>
+			
+			<p>
+				Codepedia는 HTML, CSS, Javascript와 같은 웹프로그래밍을 무료로 배울 수 있는 사이트입니다. 
+				또한, 웹프로그래밍 이외 C/C++와 같은 프로그래밍도 배울 수 있습니다.
+			</p>
 
-		<p>
-			Codepedia는 HTML, CSS, Javascript와 같은 웹프로그래밍을 무료로 배울 수 있는 사이트입니다. 또한, 웹프로그래밍 이외 C/C++와 같은 
-			프로그래밍도 배울 수 있습니다.
-		<img src="https://cdn-images-1.medium.com/max/1600/0*WW-iV1yoPWqUcd5H." width="450px" style="float: right;margin-left: 20px;margin-top:10px;">		
-		</p>
+			<img src="https://cdn-images-1.medium.com/max/1600/0*WW-iV1yoPWqUcd5H." width="450px" id="indeximg">
+           </article>
 
-	</div>
-</body> 
-</html>
+        </section>
+
+        <footer>
+                <p>Codepedia - <em>A Website Where You Can Programme!</em></p>
+        </footer>
+ 
+    </body>
+</html>		
+		

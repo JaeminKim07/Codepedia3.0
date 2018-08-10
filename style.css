@@ -1,67 +1,106 @@
-body {
-    margin:2px;
-    background-color:#F5F5F5;
-}
 
-/*
-        --------------편집하지 마세요!!-----------------
-        \          (편집하는 사람 디진다)               \
-        \       index.html의 디자인-> index.css        \
-        \       login.html의 디자인-> login.css        \
-        -----------------------------------------------
+/*--------편집하지 마세요(편집한사람 디진다)---------
+        index.html의 디자인은 index.css에서!
 */
 
-/* ----- main title ----- */
+* {
+    font-family:'맑은 고딕', 'Segoe UI', 'Apple SD Gothic Neo', Arial;
+}
+body {
+    background-color:#F5F5F5;
+    margin:2px auto;
+}
+
+
+/*header*/
+#header {
+    margin:0px;
+}
 #login{
     text-align:right;
     font-size:90%;
-    font-family:'맑은 고딕', 'Apple SD Gothic Neo', '맑은 고딕', Arial;
 }
 #title {
-    text-align:center;
-    font-size:170%;
-    font-family:'Segoe UI', 'Apple SD Gothic Neo', '맑은 고딕', Arial;
-} 
+    text-align: center;
+    color:orange;
+}
 #title a {
     text-decoration:none;
+    font-size:170%;
     color:orange;
 }
-#subtitle {
-    color:orange;
-    text-align:center;
-    font-size:95%;
-    font-family:'Segoe UI', 'Apple SD Gothic Neo', '맑은 고딕', Arial;
-}
-
-
-/* ----- menu ----- */
-#menu {
-    background-color:orange;
+#title em , em{
     font-size:94%;
+    font-family: 'Segoe UI', 'Apple SD Gothic Neo', Arial;
 }
-#menu a {
-    text-decoration:none;
-    font-family:'맑은 고딕', 'Apple SD Gothic Neo', Arial;
+
+
+/*menu*/
+#menu{
+    text-align:center;
+    background-color: orange;
+}
+#menu a{
     color:#F5F5F5;
     margin-left:20px;
     margin-right:20px;
+    text-decoration: none;
+    font-size:94%;
 }
 
 
-
-
-/* ------ normal text ----- */
-#normal, #sidemenu, #end{
-    margin-left:100px;
-    margin-right:100px;
-    font-family:'Segoe UI','맑은 고딕', 'Apple SD Gothic Neo', Arial;
-    color:rgb(233, 162, 10);
+/*section*/
+#section {
+    margin-left:260px;
+    margin-right:40px;
+    /*margin-bottom:100px;*/
 }
-.normal_title{
+#section article {
+    color:rgb(228, 173, 21, 0.911);
+}
+#section article header {
     font-size:130%;
-    margin-bottom:30px;
+    color:rgb(233, 162, 10);
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+
+
+/*aside*/
+#sidemenu {
+    position: absolute;
+    top:120px;
+    left:15px;
     margin-top:30px;
 }
-#normal p {
+#sidemenu span {
+    font-size:130%;
+    color:rgb(233, 162, 10);
+}
+#sidemenu hr {
+    width:200px;
+    height:2px;
+    background-color: orange;
+    border-color:orange;
+    border:0px;
+    
+}
+#lasthr {
+    position: relative;
+    top:50px;
+}
+#sidemenu nav , #sidemenu nav ol li a{
     color:rgb(228, 173, 21, 0.911);
+    text-decoration: none;
+}
+#sidemenu nav ol {
+    padding-left: 20px;
+}
+
+
+/*footer*/
+footer {
+    color:orange;
+    text-align: center;
+    visibility: hidden;
 }

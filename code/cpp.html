@@ -1,41 +1,57 @@
 <!DOCTYPE html>
-<meta charset="utf-8" />
-<html>
-	<head>
-		<meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
-		<link rel="stylesheet" href="..\style.css">	
-		<title>Codepedia - A Website Where You Can Programme!</title>
-	</head>
+<html lang="ko">
+    <head>
+        <meta charset="uft-8" />
+        <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+        <link rel="stylesheet" href="..\style.css">
+        <link rel="stylesheet" href="code.css">
+        <title>Codepedia - A Website Where You Can Programme!</title>
+    </head>
+    <body>
+        
+        <!-- ################ CPP.HTML ################ -->
 
-	<body  bgcolor="#F5F5F5">
-	<!--
+        <header>
+            <div id="login"><a href="..\login.html">로그인</a></div>
+            <div id="title">
+                <a href="..\index.html">Codepedia</a>
+                <br/>
+                <em>A Website Where You Can Programme!</em>
+            </div>
+            <br/>
+        </header>
+        
+        <nav id="menu">
+            <a href="..\index.html">홈</a>
+            <a href="html.html">HTML</a>
+            <a href="css.html">CSS</a>
+            <a href="js.html">Javascript</a>
+            <a href="cpp.html">C/C++</a>
+        </nav>
 
-		################ C/C++ PAGE ################ 
+        <section id="section">
 
-	-->
-	
-	<!-- TITLE -->
-	<div id="login"><a href="..\login.html">로그인</a></div>
-	<div id="title"><a href="..\index.html">Codepedia</a></div> 
-	<div id="subtitle"><em>A Website Where You Can Programme! </em></div>
-	<br/>
+        <article>
+            <header>C/C++이란?</header>
 
-	<!-- MENU -->
-	<div align="center" id="menu">
-		<a href="..\index.html">홈</a>
-		<a href="html.html">HTML</a>
-		<a href="css.html">CSS</a>
-		<a href="js.html">Javascript</a>
-		<a href="cpp.html">C/C++</a>
-	</div>
+        </article>
 
-	<!-- NORMAL -->
-	<div id="normal">
+        </section>
 
-		<!-- TITLE -->
-		<div class="normal_title">C/C++</div>
-		<!-- TEXT -->
+        <aside id="sidemenu">
+            <span>C/C++</span>
+            <hr>
+            <nav>
+                <ol>
+                    <li><a href="cpp.html">C/C++이란?</a></li>
+                </ol>
+            </nav>
+            <hr id="lasthr">
+        </aside>
 
-		</div>
-	</body>
+        <footer>
+            <p>Codepedia - <em>A Website Where You Can Programme!</em></p>
+        </footer>
+ 
+    </body>
 </html>
