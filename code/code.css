@@ -5,3 +5,11 @@
     margin-top:10px;
     margin-bottom: 20px;
 }
+pre{
+    color:#7D2727;
+    background-color:#DCDCDC;
+    padding-left: 20px;
+}
+xmp .plain {
+    color:#303336;
+}
