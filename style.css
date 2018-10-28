@@ -1,106 +1,55 @@
-
-/*--------편집하지 마세요(편집한사람 디진다)---------
-        index.html의 디자인은 index.css에서!
-*/
-
-* {
-    font-family:'맑은 고딕', 'Segoe UI', 'Apple SD Gothic Neo', Arial;
-}
-body {
-    background-color:#F5F5F5;
-    margin:2px auto;
-}
-
-
-/*header*/
-#header {
+*{
     margin:0px;
-}
-#login{
-    text-align:right;
-    font-size:90%;
-}
-#title {
-    text-align: center;
-    color:orange;
-}
-#title a {
-    text-decoration:none;
-    font-size:170%;
-    color:orange;
-}
-#title em , em{
-    font-size:94%;
-    font-family: 'Segoe UI', 'Apple SD Gothic Neo', Arial;
+    font-family: '맑은 고딕','궁서', 'Segoe UI', 'Apple SD Gothic Neo', Arial;
 }
 
-
-/*menu*/
-#menu{
-    text-align:center;
-    background-color: orange;
+/*--------여기서 부터 편집하지 마세요(편집한사람 디진다)---------
+*/
+/*header*/
+#title, #menu, #login {
+    display: inline-block;
 }
-#menu a{
-    color:#F5F5F5;
-    margin-left:20px;
-    margin-right:20px;
+#title, nav{
+    float: left;
+}
+#header a{
     text-decoration: none;
-    font-size:94%;
+}
+#header {
+    height:40px;
+    background-color:#F5F5F5;
+    padding-top:13px;
+    padding-bottom:13px;
+    padding-left: 40px;
+}
+#title a{
+    font-size: 25px;
+    color:rgba(0,0,0,.8);
+}
+.sidemenu a{
+    color:rgba(0,0,0,.5);
+    padding-right: 15px;
+    font-size:16px;
+}
+.sidemenu a:hover{
+    color:#212529;
 }
 
-
-/*section*/
-#section {
-    margin-left:260px;
-    margin-right:40px;
-    /*margin-bottom:100px;*/
+.sidemenu {
+    padding-top:8px;
+    padding-left:40px;
 }
-#section article {
-    color:rgb(228, 173, 21, 0.911);
-}
-#section article header {
-    font-size:130%;
-    color:rgb(233, 162, 10);
-    margin-top:30px;
-    margin-bottom: 30px;
+#login {
+    float: right;
+    padding-right:10px;
 }
 
-
-/*aside*/
-#sidemenu {
-    position: absolute;
-    top:120px;
-    left:15px;
-    margin-top:30px;
-}
-#sidemenu span {
-    font-size:130%;
-    color:rgb(233, 162, 10);
-}
-#sidemenu hr {
-    width:200px;
-    height:2px;
-    background-color: orange;
-    border-color:orange;
-    border:0px;
-    
-}
-#lasthr {
+/*article*/
+#section{
     position: relative;
-    top:50px;
+    margin-top:24px;
 }
-#sidemenu nav , #sidemenu nav ol li a{
-    color:rgb(228, 173, 21, 0.911);
-    text-decoration: none;
-}
-#sidemenu nav ol {
-    padding-left: 20px;
-}
-
-
-/*footer*/
-footer {
-    color:orange;
-    text-align: center;
-    visibility: hidden;
+#section article .title {
+    font-size:120%;
+    color:rgba(0,0,0,.6);
 }

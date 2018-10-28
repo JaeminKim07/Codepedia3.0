@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Codepidea</title>
+</head>
+<body>
+    <header id="header">
+        <div id="title"><a href="index.html">Codepedia</a>
+        </div>
+
+        <nav class="sidemenu">
+            <a href="index.html">홈</a>
+            <a href="html.html">HTML</a>
+            <a href="css.html">CSS</a>
+            <a href="js.html">Javascript</a>
+            <a href="cpp.html">C/C++</a>
+        </nav>
+
+        <div class="sidemenu" id="login"><a href="login.html">로그인</a>
+        </div>
+    </header>
+    <section id="section">
+        <article>
+            
+출력하는 방법
+<xmp>
+#include<stdio.h>
+int main()
+{
+    printf("(출력하고 싶은 내용)");
+}         
+</xmp>
+정수를 입력,출력하는 방법
+<xmp>
+#include<stdio.h>
+int main()
+{
+    int a;\\정수형 변수
+    scanf("%d",&a);\\정수형 입력
+    printf("%d",a);\\정수형 출력                
+}</xmp>
+문제 1 a와 b의 값을 입력받아서 순서를 바꿔 b와 a를 출력하시오.
+
+
+정답:
+<xmp>            
+#include<stdio.h>
+int main()
+{
+    int a,b;\\정수형 변수
+    scanf("%d %d",&a,&b);\\정수형 입력
+    printf("%d %d",b,a);\\정수형 출력
+}
+</xmp>
+문자를 입력,출력하는 방법
+<xmp>            
+#include<stdio.h>
+int main()
+{
+    char a;\\문자형 변수
+    scanf("%c",&a);\\문자형 입력
+    printf("%c",a);\\문자형 출력                
+}</xmp>
+
+</article>
+
+    </section>  
+    <footer>
+
+    </footer>
+</body>
+</html>

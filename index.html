@@ -1,53 +1,36 @@
 <!DOCTYPE html>
 <html lang="ko">
-    <head>
-        <meta charset="uft-8" />
-        <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
-		<link rel="stylesheet" href="style.css">
-		<link rel="stylesheet" href="index.css">
-        <title>Codepedia - A Website Where You Can Programme!</title>
-    </head>
-    <body>
-        
-        <!-- ################ INDEX.HTML ################ -->
-        <header>
-            <div id="login"><a href="login
-                .html">로그인</a></div>
-            <div id="title">
-                <a href="index.html">Codepedia</a>
-                <br/>
-                <em>A Website Where You Can Programme!</em>
-            </div>
-            <br/>
-        </header>
-        
-        <nav id="menu">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+    body {
+    background-image: url("welcome.jpg");
+    }
+    </style>
+    <title>Codepedia</title>
+</head>
+<body>
+    <header id="header">
+        <div id="title"><a href="index.html">Codepedia</a>
+        </div>
+        <nav class="sidemenu">
             <a href="index.html">홈</a>
-            <a href="code\html.html">HTML</a>
-            <a href="code\css.html">CSS</a>
-            <a href="code\js.html">Javascript</a>
-            <a href="code\cpp.html">C/C++</a>
+            <a href="html.html">HTML</a>
+            <a href="css.html">CSS</a>
+            <a href="js.html">Javascript</a>
+            <a href="cpp.html">C/C++</a>
         </nav>
 
-        <section id="section">
-
+        <div class="sidemenu" id="login"><a href="login.html">로그인</a>
+        </div>
+    </header>
+    <section id="section">
         <article>
-			<header><em>Codepedia</em>에 오신것을 환영합니다<em>!</em></header>
-			
-			<p>
-				Codepedia는 HTML, CSS, Javascript와 같은 웹프로그래밍을 무료로 배울 수 있는 사이트입니다. 
-				또한, 웹프로그래밍 이외 C/C++와 같은 프로그래밍도 배울 수 있습니다.
-			</p>
+        </article>
+    </section>
+    <footer>
 
-			<img src="https://cdn-images-1.medium.com/max/1600/0*WW-iV1yoPWqUcd5H." width="450px" id="indeximg">
-           </article>
-
-        </section>
-
-        <footer>
-                <p>Codepedia - <em>A Website Where You Can Programme!</em></p>
-        </footer>
- 
-    </body>
-</html>		
-		
+    </footer>
+</body>
+</html>
